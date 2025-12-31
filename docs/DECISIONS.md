@@ -1,22 +1,45 @@
 # Technical Decisions
 
-## Format
-Each decision: `YYYY-MM-DD | Decision | Why | Link (if any)`
+Quick log of technical choices and why they were made.
 
 ---
 
 ## Decisions
 
-2025-12-31 | Use CSS Custom Properties for color system | Makes theme changes easy; update once, changes everywhere | -
-2025-12-31 | External script.js for IntersectionObserver | Keeps HTML clean; JavaScript is reusable across pages | -
-2025-12-31 | CSS Grid for project layout | Modern responsive approach; auto-adjusts columns without media queries | -
-2025-12-31 | GitHub Pages for hosting | Free, automatic deploys on push, integrated with repo | -
-2025-12-31 | Guided learning approach over copy/paste | Sustainable learning; builds understanding for self-sufficiency | See reflections.html
-2025-12-31 | MIT License | Allows others to learn from code while keeping attribution | LICENSE
-2025-12-31 | Documentation system (DECISIONS, ONBOARDING, inbox, scripts) | Keep context with code; makes updates part of dev loop; prevents doc rot | docs/ and notes/ folders
-2025-12-31 | Build quick-commit.ps1 automation script | Reduces friction in Git workflow; encourages frequent commits; learning tool for PowerShell | scripts/quick-commit.ps1
+- **Use CSS Custom Properties for color system** (2025-12-31)
+  - Why: Makes theme changes easy; update once, changes everywhere
+
+- **External script.js for IntersectionObserver** (2025-12-31)
+  - Why: Keeps HTML clean; JavaScript is reusable across pages
+
+- **CSS Grid for project layout** (2025-12-31)
+  - Why: Modern responsive approach; auto-adjusts columns without media queries
+
+- **GitHub Pages for hosting** (2025-12-31)
+  - Why: Free, automatic deploys on push, integrated with repo
+
+- **Guided learning approach over copy/paste** (2025-12-31)
+  - Why: Sustainable learning; builds understanding for self-sufficiency
+  - See: [reflections.html](../reflections.html)
+
+- **MIT License** (2025-12-31)
+  - Why: Allows others to learn from code while keeping attribution
+  - See: [LICENSE](../LICENSE)
+
+- **Documentation system (DECISIONS, ONBOARDING, inbox, scripts)** (2025-12-31)
+  - Why: Keep context with code; makes updates part of dev loop; prevents doc rot
+  - See: docs/ and notes/ folders
+
+- **Build quick-commit.ps1 automation script** (2025-12-31)
+  - Why: Reduces friction in Git workflow; encourages frequent commits; learning tool for PowerShell
+  - See: [scripts/quick-commit.ps1](../scripts/quick-commit.ps1)
 
 ---
 
 ## Template for new decisions
-YYYY-MM-DD | [What you decided] | [Why you chose this] | [Link to PR/issue/doc]
+
+```markdown
+- **[Decision title]** (YYYY-MM-DD)
+  - Why: [Brief explanation of reasoning]
+  - See: [Optional link to code/docs]
+```
