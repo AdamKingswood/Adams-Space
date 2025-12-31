@@ -4,6 +4,10 @@ Runnable snippets and utilities for common tasks.
 
 ## Available Scripts
 
+### quick-commit.ps1
+Streamlined Git workflow - stages, commits, and pushes in one command.
+**Usage:** `.\scripts\quick-commit.ps1 "Your commit message"`
+
 ### deploy-check.ps1
 Quick check before pushing to ensure everything is ready for deployment.
 
