@@ -55,6 +55,10 @@ Adams-Space/
 
 3. **Commit and push**
    ```bash
+   # Quick method (recommended):
+   .\scripts\quick-commit.ps1 "Description of changes"
+   
+   # Or manual method:
    git add .
    git commit -m "Description of changes"
    git push

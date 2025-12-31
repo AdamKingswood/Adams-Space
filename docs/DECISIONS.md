@@ -14,6 +14,7 @@ Each decision: `YYYY-MM-DD | Decision | Why | Link (if any)`
 2025-12-31 | Guided learning approach over copy/paste | Sustainable learning; builds understanding for self-sufficiency | See reflections.html
 2025-12-31 | MIT License | Allows others to learn from code while keeping attribution | LICENSE
 2025-12-31 | Documentation system (DECISIONS, ONBOARDING, inbox, scripts) | Keep context with code; makes updates part of dev loop; prevents doc rot | docs/ and notes/ folders
+2025-12-31 | Build quick-commit.ps1 automation script | Reduces friction in Git workflow; encourages frequent commits; learning tool for PowerShell | scripts/quick-commit.ps1
 
 ---
 
