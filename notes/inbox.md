@@ -10,6 +10,8 @@ Quick captures. Triage weekly: convert to issues, move to docs, or delete.
 ### Learning Tasks
 - 2026-01-01: Research how to add "back to top" button that appears on scroll
 - 2026-01-01: Look into hamburger menu for mobile navigation
+- 2025-12-31: [LEARN] Build link-checker.ps1 to validate internal links before deployment
+- 2025-12-31: [LEARN] Research image-optimizer.ps1 for project screenshot compression
 
 ### Polish & Refinements
 - 2026-01-01: Make footer navigation match header navigation (currently only 4 vs 6 links)
