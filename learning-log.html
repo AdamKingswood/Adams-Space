@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Daily learning log documenting progress in HTML, CSS, JavaScript, and web development fundamentals.">
+    <!-- Open Graph / Social Media -->
+<meta property="og:title" content="Adam's Space - Learning Web Development" />
+<meta property="og:description" content="A personal learning space documenting my journey in web development and continuous learning." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://yoursite.com" />
+    <title>Learning Log - Adam's Space</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header>
+         <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="who-i-am.html">Who I Am</a></li>
+                <li><a href="work-and-learning.html">How My Work Shapes My Learning</a></li>
+                <li><a href="projects.html">Web Dev Projects</a></li>
+                <li><a href="reflections.html">Reflections</a></li>
+                <li><a href="learning-log.html" aria-current="page">Learning Log</a></li>
+            </ul>
+         </nav>
+    </header>
+    
+    <main id="main">
+        <h1>Learning Log</h1>
+        
+        <section class="learning-log-intro reveal">
+            <p>I'm using this log to record what I'm learning day by day. It helps me see progress, stay consistent, and understand what's clicking and what still needs work.</p>
+        </section>
+        
+        <section class="log-entry reveal">
+            <h2>Getting Started with HTML & CSS</h2>
+            <time datetime="2025-12-10">December 10, 2025</time>
+            <p>Today I focused on the basics of HTML structure and simple CSS styling. I’m starting to understand how pages fit together and how small changes in CSS can shape the feel of a site.</p>
+        </section>
+        
+        <section class="log-entry reveal">
+            <h2>Navigation States, Favicon, and Footer Enhancement</h2>
+            <time datetime="2025-12-31">December 31, 2025</time>
+            <p>Worked on adding several features to improve the site's polish and functionality. Added an active page indicator using aria-current="page" to show which page you're currently on. Created and implemented a favicon that now appears in browser tabs across all pages.</p>
+            <p>Built an enhanced footer with navigation links, a GitHub link, and a back-to-top button. Added Open Graph meta tags so the site will display properly when shared on social media.</p>
+            <p>The approach was mostly guided learning - understanding each piece before adding it. Some parts like the CSS refactoring involved more copy/paste, which is something I want to balance better. Learning to work with CSS variables, semantic HTML structure, and accessibility attributes like aria-current.</p>
+            <p>Later in the session, built a project grid using CSS Grid to showcase four projects. Learned about display: grid, grid-template-columns with repeat(auto-fit, minmax()), and how to create responsive layouts that automatically adjust. Created project card components with hover effects and button styling.</p>
+        </section>
+
+        <section class="quick-links reveal">
+            <h2>Explore More</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="who-i-am.html">Who I Am</a></li>
+                <li><a href="projects.html">Web Dev Projects</a></li>
+                <li><a href="reflections.html">Reflections</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+    <nav class="footer-nav" aria-label="Footer navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="who-i-am.html">Who I Am</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="learning-log.html">Learning Log</a></li>
+        </ul>
+    </nav>
+    <div class="footer-social">
+        <a href="https://github.com/AdamKingswood" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+    <p class="copyright">© 2025 Adam’s Space</p>
+    <a href="#main" class="back-to-top">Back to top ↑</a>
+  </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
