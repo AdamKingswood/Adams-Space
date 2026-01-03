@@ -195,7 +195,23 @@ nav a[aria-current="page"]{
   padding: 0.25rem 0.5rem;
   border-radius: var(--border-radius);
 }
-
+/* Hamburger button */
+.hamburger{
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  z-index: 1000;
+}
+.hamburger span{
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: var(--primary);
+  margin: 5px 0;
+  transition: var(--transition-normal);
+}
 /* ===================================
    COMPONENTS
    =================================== */
@@ -403,6 +419,44 @@ textarea:focus-visible {
   clip: auto;
   overflow: visible;
   z-index: var(--z-skip-link);
+}
+
+/* ===================================
+   MOBILE NAVIGATION
+   =================================== */
+@media (max-width: 768px) {
+  .hamburger{
+    display: block;
+  }
+  nav ul{
+    display: none;
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+    background-color: var(--card-bg);
+    border-bottom: 1px solid var(--border);
+    padding: 1rem 0;
+  }
+  nav ul.active{
+    display:flex;
+    animation: fadeIn 0.3s ease;
+  }
+  nav li{
+    width: 100%;
+    text-align: center;
+  }
+  
+  nav a {
+    display: block;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--border);
+  }
+  
+  nav a[aria-current="page"] {
+    background-color: var(--soft-neutral);
+    border-radius: 0;
+  }
+  
 }
 
 /* ===================================
