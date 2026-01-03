@@ -19,7 +19,7 @@ Quick captures. Triage weekly: convert to issues, move to docs, or delete.
 - 2025-12-31: Research image-optimizer.ps1 for project screenshot compression
 
 ### Polish & Refinements
-- 2026-01-01: Make footer navigation match header navigation (currently only 4 vs 6 links)
+
 
 ---
 
