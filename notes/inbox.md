@@ -5,7 +5,7 @@ Quick captures. Triage weekly: convert to issues, move to docs, or delete.
 ## Captured
 
 ### In Progress
-- 2026-01-01: [GitHub Issue] Implement responsive hamburger menu for mobile navigation
+
 
 ### Quick Wins
 - 2026-01-01: Add project screenshots to project cards on projects.html

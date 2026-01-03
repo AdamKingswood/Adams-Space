@@ -6,6 +6,11 @@ Quick log of technical choices and why they were made.
 
 ## Decisions
 
+- **Hamburger menu pattern for mobile navigation** (2026-01-03)
+  - Why: Improves mobile UX; prevents cramped navigation on small screens ≤768px
+  - Uses three-span CSS bars for accessibility; includes click-outside, escape key, and link-click close behaviors
+  - See: [index.html](../index.html), [styles.css](../styles.css), [script.js](../script.js)
+
 - **Use CSS Custom Properties for color system** (2025-12-31)
   - Why: Makes theme changes easy; update once, changes everywhere
 
