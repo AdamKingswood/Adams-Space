@@ -204,10 +204,9 @@ nav a[aria-current="page"]{
   cursor: pointer;
   padding: 0.5rem;
   z-index: 1000;
-  position: absolute;
+  position: fixed;
   right: 1rem;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 1rem;
 }
 .hamburger span{
   display: block;
