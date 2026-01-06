@@ -430,6 +430,9 @@ textarea:focus-visible {
    MOBILE NAVIGATION
    =================================== */
 @media (max-width: 768px) {
+  header{
+    padding: 0.75 0;
+  }
   .hamburger{
     display: block;
   }
@@ -440,7 +443,8 @@ textarea:focus-visible {
     width: 100%;
     background-color: var(--card-bg);
     border-bottom: 1px solid var(--border);
-    padding: 1rem 0;
+    padding: 0.5rem 0;
+    margin-top: 0.75rem;
   }
   nav ul.active{
     display:flex;
@@ -453,10 +457,12 @@ textarea:focus-visible {
   
   nav a {
     display: block;
-    padding: 0.75rem 1rem;
+    padding: 1rem 1.5rem;
     border-bottom: 1px solid var(--border);
   }
-  
+nav li:last-child a{
+  border-bottom: none;
+}
   nav a[aria-current="page"] {
     background-color: var(--soft-neutral);
     border-radius: 0;
