@@ -203,18 +203,18 @@ nav a[aria-current="page"]{
   border: none;
   cursor: pointer;
   padding: 0.5rem;
-  z-index: 1000;
+  z-index: 1001;
   position: fixed;
-  right: 1rem;
-  top: 1rem;
+  right: 1.5rem;
+  top: 1.5rem;
 }
 .hamburger span{
   display: block;
   width: 25px;
   height: 3px;
-  background-color: var(--primary);
+  background-color: var(--text);
   margin: 5px 0;
-  transition: var(--transition-normal);
+  transition: 0.3s;
 }
 /* ===================================
    COMPONENTS
@@ -429,10 +429,6 @@ textarea:focus-visible {
    MOBILE NAVIGATION
    =================================== */
 @media (max-width: 768px) {
-  header{
-    padding: 0.75rem 0;
-  }
-  
   .hamburger{
     display: block;
   }
@@ -443,14 +439,14 @@ textarea:focus-visible {
     gap: 0;
     width: 100%;
     background-color: var(--card-bg);
-    border-bottom: 1px solid var(--border);
+    border-top: 1px solid var(--border);
     padding: 0;
     margin: 0;
-    position: absolute;
-    top: 100%;
+    position: fixed;
+    top: 4.5rem;
     left: 0;
-    box-shadow: 0 2px 4px var(--shadow);
-    z-index: 999;
+    box-shadow: 0 4px 6px var(--shadow);
+    z-index: 1000;
   }
   
   nav ul.active{
@@ -460,13 +456,13 @@ textarea:focus-visible {
   
   nav li{
     width: 100%;
-    text-align: center;
   }
   
   nav a {
     display: block;
     padding: 1rem 1.5rem;
     border-bottom: 1px solid var(--border);
+    text-align: left;
   }
   
   nav li:last-child a{
@@ -475,7 +471,10 @@ textarea:focus-visible {
   
   nav a[aria-current="page"] {
     background-color: var(--soft-neutral);
-    border-radius: 0;
+  }
+  
+  .footer-nav {
+    display: none;
   }
 }
 
