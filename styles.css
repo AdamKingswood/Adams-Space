@@ -450,6 +450,7 @@ textarea:focus-visible {
     top: 100%;
     left: 0;
     box-shadow: 0 2px 4px var(--shadow);
+    z-index: 999;
   }
   
   nav ul.active{
