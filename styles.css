@@ -203,11 +203,9 @@ nav a[aria-current="page"]{
   border: none;
   cursor: pointer;
   padding: 0.5rem;
-  z-index: 1001;
-  position: fixed;
-  right: 1.5rem;
-  top: 1.5rem;
+  z-index: 1000;
 }
+
 .hamburger span{
   display: block;
   width: 25px;
@@ -437,21 +435,10 @@ textarea:focus-visible {
     display: none;
     flex-direction: column;
     gap: 0;
-    width: 100%;
-    background-color: var(--card-bg);
-    border-top: 1px solid var(--border);
-    padding: 0;
-    margin: 0;
-    position: fixed;
-    top: 4.5rem;
-    left: 0;
-    box-shadow: 0 4px 6px var(--shadow);
-    z-index: 1000;
   }
   
   nav ul.active{
     display: flex;
-    animation: fadeIn 0.3s ease;
   }
   
   nav li{
@@ -460,17 +447,12 @@ textarea:focus-visible {
   
   nav a {
     display: block;
-    padding: 1rem 1.5rem;
+    padding: 0.75rem 1rem;
     border-bottom: 1px solid var(--border);
-    text-align: left;
   }
   
   nav li:last-child a{
     border-bottom: none;
-  }
-  
-  nav a[aria-current="page"] {
-    background-color: var(--soft-neutral);
   }
   
   .footer-nav {
