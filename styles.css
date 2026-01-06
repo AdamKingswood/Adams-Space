@@ -206,8 +206,7 @@ nav a[aria-current="page"]{
   z-index: 1000;
   position: absolute;
   right: 1rem;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 1rem;
 }
 .hamburger span{
   display: block;
