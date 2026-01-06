@@ -6,10 +6,19 @@ Quick log of technical choices and why they were made.
 
 ## Decisions
 
-- **Hamburger menu pattern for mobile navigation** (2026-01-03)
+- **Hamburger menu pattern for mobile navigation** (2026-01-03, updated 2026-01-06)
   - Why: Improves mobile UX; prevents cramped navigation on small screens ≤768px
   - Uses three-span CSS bars for accessibility; includes click-outside, escape key, and link-click close behaviors
+  - Status: Functional but needs positioning refinement - currently exploring fixed vs absolute positioning
+  - Learning: Understanding CSS positioning context (absolute vs fixed), z-index stacking, and mobile menu patterns
+  - Next: Implement proper top-right corner positioning with smooth animations
   - See: [index.html](../index.html), [styles.css](../styles.css), [script.js](../script.js)
+
+- **Taking guided learning approach to fixes** (2026-01-06)
+  - Why: Build understanding rather than just copy/paste solutions; learn to debug CSS independently
+  - Approach: Explain positioning concepts, why certain approaches work, and how to test changes
+  - Result: Deeper understanding of CSS positioning, media queries, and troubleshooting syntax errors
+  - Challenge: Balance between speed and learning - sometimes need to iterate multiple times
 
 - **Use CSS Custom Properties for color system** (2025-12-31)
   - Why: Makes theme changes easy; update once, changes everywhere

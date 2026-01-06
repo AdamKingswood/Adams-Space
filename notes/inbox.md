@@ -5,7 +5,9 @@ Quick captures. Triage weekly: convert to issues, move to docs, or delete.
 ## Captured
 
 ### In Progress
-
+- 2026-01-06: Fix hamburger menu positioning - needs proper top-right placement with fixed positioning
+- 2026-01-06: Improve mobile menu appearance - consider slide-in animation and better spacing
+- 2026-01-06: Test hamburger menu scroll behavior - ensure it stays visible when page scrolls
 
 ### Quick Wins
 - 2026-01-01: Add project screenshots to project cards on projects.html
@@ -31,7 +33,6 @@ Quick captures. Triage weekly: convert to issues, move to docs, or delete.
 - 2026-01-03: Flesh out other pages with more detailed content
 
 ### Polish & Refinements
-- 2026-01-03: Fix hamburger menu positioning - too far left, feels cramped
 - 2026-01-03: Utilize empty header space when hamburger closed - consider adding site name/logo
 - 2026-01-03: Create consistent card/box styling across all pages
 - 2026-01-03: Add breadcrumb navigation to help users know where they are
@@ -40,6 +41,10 @@ Quick captures. Triage weekly: convert to issues, move to docs, or delete.
 ### Accessibility
 - 2026-01-03: Audit all images for proper alt text
 
+### Completed Today
+- ~~2026-01-06: Fixed CSS syntax errors in mobile navigation section~~
+- ~~2026-01-06: Cleaned up duplicate code in skip-link styles~~
+- ~~2026-01-06: Basic hamburger menu functionality working (toggle on/off)~~
 
 ---
 
